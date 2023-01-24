@@ -1,0 +1,11 @@
+{
+    "domain": "materialsymbols",
+    "name": "Google Material Symbols icons",
+    "documentation": "https://github.com/samrenfrew/hass-materialsymbols",
+    "dependencies": ["frontend", "http"],
+    "codeowners": [],
+    "requirements": [],
+    "config_flow": true,
+    "version": "1.0.0",
+    "iot_class": "local_polling"
+}
