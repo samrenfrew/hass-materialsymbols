@@ -14,26 +14,14 @@ Use icons from the [Google Material Symbols](https://fonts.google.com/icons) set
 
   - Alternatively: Go to your integrations configuration, click Add Integration and find "materialsymbols icons"
 
-# Icon sets
-
-The icons are divided into three sets.
-
-- Outlined
-- Rounded
-- Sharp
 
 # Usage
 
 Find the icon you want in the [gallery](https://marella.me/material-symbols/demo).
 
-The three icon sets have different prefixes: `mso:`, `msr:` and `mss:` respectively.
+Only the *Rounded* icons are included to simplify the choice
 
-So,
-
-- to get an *outlined* home, use `mso:home`
-- to get a *rounded* home, use `msr:home`
-- to get the *sharp* home, use `mss:home`
-
+To use the icons, prefix them with _ms:_
 
 The icons are useable anywhere in Home Assistant - not only in lovelace.
 

@@ -3,9 +3,9 @@ const DOMAIN = "materialsymbols";
 const ICON_STORE = {};
 
 const PREFIXES = {
-  mso: "outlined",
-  msr: "rounded",
-  mss: "sharp",
+  // mso: "outlined",
+  ms: "rounded",
+  // mss: "sharp",
 };
 
 const preProcessIcon = async (iconSet, iconName) => {
@@ -53,15 +53,15 @@ if (!("customIcons" in window)) {
   window.customIcons = {};
 }
 
-window.customIcons["mso"] = {
-  getIcon: (iconName) => getIcon("outlined", iconName),
-  getIconList: () => getIconList("outlined"),
-};
-window.customIcons["msr"] = {
+// window.customIcons["mso"] = {
+//   getIcon: (iconName) => getIcon("outlined", iconName),
+//   getIconList: () => getIconList("outlined"),
+// };
+window.customIcons["ms"] = {
   getIcon: (iconName) => getIcon("rounded", iconName),
   getIconList: () => getIconList("rounded"),
 };
-window.customIcons["mss"] = {
-  getIcon: (iconName) => getIcon("sharp", iconName),
-  getIconList: () => getIconList("sharp"),
-};
+// window.customIcons["mss"] = {
+//   getIcon: (iconName) => getIcon("sharp", iconName),
+//   getIconList: () => getIconList("sharp"),
+// };
