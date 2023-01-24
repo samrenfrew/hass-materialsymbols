@@ -53,7 +53,7 @@ if (!("customIcons" in window)) {
   window.customIcons = {};
 }
 
-window.customIcons["ms"] = {
+window.customIcons["mso"] = {
   getIcon: (iconName) => getIcon("outlined", iconName),
   getIconList: () => getIconList("outlined"),
 };
